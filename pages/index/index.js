@@ -55,6 +55,14 @@ Page({
     })
   },
 
+  onShareAppMessage: function() {
+    return {
+      title: '铁塔智慧管家',
+      desc: '铁塔智慧管家',
+      path: '/pages/index/index'
+    }
+  },
+
   scan : function() {
     wx.scanCode({
       success: (res) => {
