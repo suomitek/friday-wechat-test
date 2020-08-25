@@ -1,0 +1,21 @@
+<text class = "text">
+
+铁塔智慧管家
+
+</text>
+
+<view class = "item" bindtap='scan'>
+<image class="item-icon" mode="widthFix" src="/assets/icon1.png"></image>
+<text>扫码中转
+
+
+
+
+</text>
+</view>
+
+<view class = "item" bindtap='scan'>
+<image class="item-icon" mode="widthFix" src="/assets/icon1.png"></image>
+<text>扫码收货
+</text>
+</view>
